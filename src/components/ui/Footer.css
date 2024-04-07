@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: brown;
+    height: 40px;
+
+}
