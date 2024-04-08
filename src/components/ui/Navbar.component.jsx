@@ -1,6 +1,8 @@
-import React, {useRef} from "react";
-import { Link} from 'react-router-dom'
-import { FaCoins } from "react-icons/fa"
+import React, { useRef } from "react";
+import "./Navbar.css";
+
+import { Link } from "react-router-dom";
+import { FaCoins } from "react-icons/fa";
 
 const NavbarComponent = () => {
   const btnToggleRef = useRef();
@@ -16,7 +18,7 @@ const NavbarComponent = () => {
       <div className="container-fluid">
         <div>
           <FaCoins className="navbar-logo-icon" />
-          <span className="navbar-logo-text">Crypto-project</span>
+          <span className="navbar-logo-text">Crypto Tracking</span>
         </div>
         <button
           className="navbar-toggler"
@@ -60,3 +62,9 @@ const NavbarComponent = () => {
 };
 
 export default NavbarComponent;
+
+// Routes
+// /
+// /faq
+// /about-us
+// /contact-us

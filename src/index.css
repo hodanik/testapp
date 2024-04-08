@@ -5,11 +5,17 @@
 }
 
 body {
-  background-color: rgb(191, 178, 202);
-
+  background-color: rgb(196, 196, 197);
 }
 
-.wrapper{
-  /*background-color: rgb(160, 75, 199);*/
-  min-height: calc(100vh-56px-40px);
+.wrapper {
+  /* background-color: rgb(163, 129, 241); */
+  /* navbar height = 56px */
+  /* footer height = 40px */
+  min-height: calc(100vh - 56px - 40px);
+}
+
+.about-img {
+  width: 350px;
+  height: 350px;
 }
